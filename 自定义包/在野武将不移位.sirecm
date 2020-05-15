@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="GB2312"?>
+<CustomModifyPackage>
+	<PackageName>在野武将不移位</PackageName>
+	<PackageAuthor>kilszfdjs</PackageAuthor>
+	<PackageDiscription>在野武将不移位</PackageDiscription>
+	<CustomModifyItems>
+		<CustomModifyItem>
+			<Caption>在野武将不移位</Caption>
+			<Enabled>true</Enabled>
+			<Codes>
+				<Code>
+					<Description>代码</Description>
+					<Address>0058E42D</Address><!--长度:11-->
+					<EnableCode>74 0B</EnableCode>
+					<DisableCode>75 0B</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>0058E42F</Address><!--长度:11-->
+					<EnableCode>EB 49</EnableCode>
+					<DisableCode>8B CE</DisableCode>
+				</Code>	
+		</Codes>
+		</CustomModifyItem>
+	</CustomModifyItems>
+</CustomModifyPackage>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="GB2312"?>
+<CustomModifyPackage>
+	<PackageName>暴击率参数修改</PackageName>
+	<PackageAuthor>kilszfdjs</PackageAuthor>
+	<PackageDiscription>可修改暴击率有关阈值</PackageDiscription>
+	<CustomModifyItems>
+		<CustomModifyItem>
+			<Caption>能力修改</Caption>
+			<Enabled>true</Enabled>
+			<Params>
+				<Param>
+					<Name>取部队最高</Name>
+					<Address>005AE816</Address>
+					<Length>1</Length>
+					<Type>ValueList</Type>
+					<Value>0</Value>
+					<ValueList>
+						<Item name="统">C4</Item>
+						<Item name="武">C5</Item>
+						<Item name="智">C6</Item>
+						<Item name="政">C7</Item>
+						<Item name="魅">C8</Item>
+					</ValueList>
+				</Param>
+			</Params>
+		</CustomModifyItem>
+<CustomModifyItem>
+			<Caption>能力高于XX基本暴击率</Caption>
+			<Enabled>true</Enabled>
+			<Params>
+			<Param>
+					<Name>能力高于</Name>
+					<Address>005AE828</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>60</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			<Param>
+					<Name>基本暴击率</Name>
+					<Address>005AE82C</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>1</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			</Params>
+		</CustomModifyItem>
+<CustomModifyItem>
+			<Caption>能力高于XX基本暴击率</Caption>
+			<Enabled>true</Enabled>
+			<Params>
+			<Param>
+					<Name>能力高于</Name>
+					<Address>005AE81D</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>80</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			<Param>
+					<Name>基本暴击率</Name>
+					<Address>005AE821</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>2</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			</Params>
+		</CustomModifyItem>
+<CustomModifyItem>
+			<Caption>主将与副将亲爱暴击率+X</Caption>
+			<Enabled>true</Enabled>
+			<Params>
+			<Param>
+					<Name>阈值</Name>
+					<Address>005AE890</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>2</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			</Params>
+		</CustomModifyItem>
+<CustomModifyItem>
+			<Caption>主将与副将厌恶暴击率－X</Caption>
+			<Enabled>true</Enabled>
+			<Params>
+			<Param>
+					<Name>阈值</Name>
+					<Address>005AE8A1</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>5</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			</Params>
+		</CustomModifyItem>
+<CustomModifyItem>
+			<Caption>仲介关系暴击率+X</Caption>
+			<Enabled>true</Enabled>
+			<Params>
+			<Param>
+					<Name>阈值</Name>
+					<Address>005AE8A6</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>4</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			</Params>
+		</CustomModifyItem>
+	</CustomModifyItems>
+</CustomModifyPackage>

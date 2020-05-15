@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312"?>
+<CustomModifyPackage>
+	<PackageName>副将增加攻击判定修改</PackageName>
+	<PackageAuthor>kilszfdjs</PackageAuthor>
+	<PackageDiscription>判定方式自定义（默认统）
+</PackageDiscription>
+	<CustomModifyItems>
+		<CustomModifyItem>
+			<Caption>测试</Caption>
+			<Enabled>true</Enabled>
+			<Params>
+				<Param>
+					<Name>修改为</Name>
+					<Address>008A9689</Address>
+					<Length>1</Length>
+					<Type>ValueList</Type>
+					<Value>0</Value>
+					<ValueList>
+						<Item name="统">83</Item>
+						<Item name="武">84</Item>
+						<Item name="智">85</Item>
+						<Item name="政">86</Item>
+						<Item name="魅">87</Item>
+					</ValueList>
+				</Param>
+			</Params>
+		</CustomModifyItem>
+	</CustomModifyItems>
+</CustomModifyPackage>

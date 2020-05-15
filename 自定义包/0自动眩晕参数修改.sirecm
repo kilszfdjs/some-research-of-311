@@ -1,0 +1,93 @@
+﻿<CustomModifyPackage>
+	<PackageName>自动眩晕参数修改</PackageName>
+	<PackageAuthor>kilszfdjs</PackageAuthor>
+	<PackageDiscription>自动眩晕参数修改</PackageDiscription>
+	<CustomModifyItems>
+		<CustomModifyItem>
+			<Caption>自动眩晕参数修改</Caption>
+			<Enabled>true</Enabled>			
+            <Params>
+				<Param>
+					<Name>眩晕类型</Name>
+					<Address>0059A208</Address>
+					<Length>1</Length>
+					<Type>ValueList</Type>
+					<Value>0</Value>
+					<ValueList>
+						<Item name="无状态">00</Item>						
+						<Item name="眩晕">01</Item>						
+                        <Item name="伪报">02</Item>
+						<Item name="挑衅">03</Item>
+						<Item name="恐惧">04</Item>
+						<Item name="撕裂">05</Item>
+						<Item name="中毒">06</Item>
+					</ValueList>
+				</Param>
+			<Param>
+					<Name>眩晕概率（100－兵力×0.064－XX）</Name>
+					<Address>0059A167</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>10</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			<Param>
+					<Name>概率最小值（对于兵力判断）</Name>
+					<Address>0059A16E</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>10</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			<Param>
+					<Name>概率最大值（对于兵力判断）</Name>
+					<Address>0059A17A</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>80</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			<Param>
+					<Name>不眩晕概率（统×0.4+XX）</Name>
+					<Address>0059A1A7</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>20</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			<Param>
+					<Name>取X格以内部队</Name>
+					<Address>0059A1DA</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>3</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			<Param>
+					<Name>状态持续回合可能1</Name>
+					<Address>0059A1F4</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>1</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			<Param>
+					<Name>状态持续回合可能2</Name>
+					<Address>0059A1F6</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>2</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			</Params>
+		</CustomModifyItem>
+	</CustomModifyItems>
+</CustomModifyPackage>
+

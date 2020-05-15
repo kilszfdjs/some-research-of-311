@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GB2312"?>
+<CustomModifyPackage>
+	<PackageName>1到1000武将禁登用</PackageName>
+	<PackageAuthor>kilszfdjs</PackageAuthor>
+	<PackageDiscription>1到1000武将禁登用</PackageDiscription>
+	<CustomModifyItems>
+		<CustomModifyItem>
+			<Caption>1到1000武将禁登用</Caption>
+			<Enabled>true</Enabled>
+			<Codes>
+				<Code>
+					<Description>代码</Description>
+					<Address>004CF66E</Address><!--长度:11-->
+					<EnableCode>81 FD 00 00 00 00</EnableCode>
+					<DisableCode>81 FD BC 02 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004CF66E</Address><!--长度:11-->
+					<EnableCode>81 FD 00 00 00 00</EnableCode>
+					<DisableCode>81 FD BC 02 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004CF676</Address><!--长度:11-->
+					<EnableCode>81 FD E8 03 00 00</EnableCode>
+					<DisableCode>81 FD 1F 03 00 00</DisableCode>
+				</Code>	
+		</Codes>
+		</CustomModifyItem>
+	</CustomModifyItems>
+</CustomModifyPackage>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="GB2312"?>
+<CustomModifyPackage>
+	<PackageName>舌战补丁</PackageName>
+	<PackageAuthor>kilszfdjs</PackageAuthor>
+	<PackageDiscription>舌战时
+①观看对方持牌
+②无限考虑
+③熟虑後获得大喝,愤怒,与目前话题最大牌
+④防秒杀
+⑤必出追加
+⑥追加获得技巧，经验，功绩
+⑦无条件六张牌
+⑧激愤时先发动莽撞与小心性格的效果</PackageDiscription>
+	<CustomModifyItems>
+		<CustomModifyItem>
+			<Caption>观看对方持牌</Caption>
+			<Enabled>true</Enabled>
+			<Codes>
+				<Code>
+					<Description>代码</Description>
+					<Address>00523995</Address><!--长度:1-->
+					<EnableCode>9C</EnableCode>
+					<DisableCode>D8</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>0052316A</Address><!--长度:1-->
+					<EnableCode>9C</EnableCode>
+					<DisableCode>D8</DisableCode>
+				</Code>
+		</Codes>
+		</CustomModifyItem>
+		<CustomModifyItem>
+			<Caption>无限熟虑</Caption>
+			<Enabled>true</Enabled>
+			<Codes>
+				<Code>
+					<Description>代码</Description>
+					<Address>0051EC7E</Address><!--长度:11-->
+					<EnableCode>8D 0C BF C1 E1 05 E9 9D 1E 4E 00</EnableCode>
+					<DisableCode>C7 84 BE 84 01 00 00 00 00 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>00A00B26</Address><!--长度:23-->
+					<EnableCode>8B 84 31 A8 00 00 00 85 C0 75 07 89 84 BE 84 01 00 00 E9 4C E1 B1 FF</EnableCode>
+					<DisableCode>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</DisableCode>
+				</Code>	
+		</Codes>
+		</CustomModifyItem>
+		<CustomModifyItem>
+			<Caption>玩家操作者熟虑後获得大喝,愤怒,与目前话题最大牌</Caption>
+			<Enabled>true</Enabled>
+			<Codes>
+				<Code>
+					<Description>代码</Description>
+					<Address>0051D828</Address><!--长度:5-->
+					<EnableCode>E9 C7 2B 4E 00</EnableCode>
+					<DisableCode>8B 46 0C 85 C0</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>00A003F4</Address><!--长度:190-->
+					<EnableCode>8B 86 98 00 00 00 85 C0 75 0A 8B 46 0C 85 C0 E9 25 D4 B1 FF C7 46 1C 0A 00 00 00 C7 46 20 0E 00 00 00 E9 4D D4 B1 FF 8B 81 98 00 00 00 83 F8 01 0F 84 34 E2 B1 FF 8B 44 24 10 8B 80 88 00 00 00 83 F8 01 74 0A E8 72 D0 B1 FF E9 EA E1 B1 FF 51 6A 01 E8 85 1D A7 FF 83 C4 04 59 85 C0 74 E6 E9 00 E2 B1 FF 8B 44 24 1C 85 C0 74 07 B8 07 00 00 00 EB 05 E8 04 D0 B1 FF E9 75 D6 B1 FF 8B 86 98 00 00 00 83 F8 01 75 05 83 C0 02 EB 05 E8 8A D0 B1 FF E9 0A EA B1 FF E8 E0 A3 B1 FF 8B 83 7C 01 00 00 69 C0 A0 00 00 00 8B 84 18 A8 00 00 00 83 F8 01 0F 85 4C EA B1 FF 5F E9 4B EA B1 FF</EnableCode>
+					<DisableCode>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</DisableCode>
+				</Code>	
+		</Codes>
+		</CustomModifyItem>
+		<CustomModifyItem>
+			<Caption>防秒杀</Caption>
+			<Enabled>true</Enabled>
+			<Codes>
+				<Code>
+					<Description>代码</Description>
+					<Address>0051E628</Address><!--长度:5-->
+					<EnableCode>E9 EE 1D 4E 00</EnableCode>
+					<DisableCode>E8 83 EE FF FF</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>00A0041B</Address><!--长度:151-->
+					<EnableCode>8B 81 98 00 00 00 83 F8 01 0F 84 34 E2 B1 FF 8B 44 24 10 8B 80 88 00 00 00 83 F8 01 74 0A E8 72 D0 B1 FF E9 EA E1 B1 FF 51 6A 01 E8 85 1D A7 FF 83 C4 04 59 85 C0 74 E6 E9 00 E2 B1 FF 8B 44 24 1C 85 C0 74 07 B8 07 00 00 00 EB 05 E8 04 D0 B1 FF E9 75 D6 B1 FF 8B 86 98 00 00 00 83 F8 01 75 05 83 C0 02 EB 05 E8 8A D0 B1 FF E9 0A EA B1 FF E8 E0 A3 B1 FF 8B 83 7C 01 00 00 69 C0 A0 00 00 00 8B 84 18 A8 00 00 00 83 F8 01 0F 85 4C EA B1 FF 5F E9 4B EA B1 FF</EnableCode>
+					<DisableCode>8B 81 98 00 00 00 83 F8 01 0F 84 34 E2 B1 FF 8B 44 24 10 8B 80 88 00 00 00 83 F8 01 74 0A E8 72 D0 B1 FF E9 EA E1 B1 FF 51 6A 01 E8 85 1D A7 FF 83 C4 04 59 85 C0 74 E6 E9 00 E2 B1 FF 8B 44 24 1C 85 C0 74 07 B8 07 00 00 00 EB 05 E8 04 D0 B1 FF E9 75 D6 B1 FF 8B 86 98 00 00 00 83 F8 01 75 05 83 C0 02 EB 05 E8 8A D0 B1 FF E9 0A EA B1 FF E8 E0 A3 B1 FF 8B 83 7C 01 00 00 69 C0 A0 00 00 00 8B 84 18 A8 00 00 00 83 F8 01 0F 85 4C EA B1 FF 5F E9 4B EA B1 FF</DisableCode>
+				</Code>	
+		</Codes>
+		</CustomModifyItem>
+		<CustomModifyItem>
+			<Caption>必出追加</Caption>
+			<Enabled>true</Enabled>
+			<Codes>
+				<Code>
+					<Description>代码</Description>
+					<Address>0051F111</Address><!--长度:22-->
+					<EnableCode>8B 86 9C 01 00 00 8D 14 80 C1 E2 05 8B 84 32 A8 00 00 00 5E C3 90</EnableCode>
+					<DisableCode>8B 8E 9C 01 00 00 51 E8 33 F1 FF FF 8D 14 80 C1 E2 05 8B 4C 32 14</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>0051F2C7</Address><!--长度:2-->
+					<EnableCode>75 3C</EnableCode>
+					<DisableCode>75 07</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>0051F305</Address><!--长度:9-->
+					<EnableCode>C7 46 08 05 00 00 00 EB C2</EnableCode>
+					<DisableCode>CC CC CC CC CC CC CC CC CC</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>0051DD82</Address><!--长度:1-->
+					<EnableCode>03</EnableCode>
+					<DisableCode>46</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>0051DDC8</Address><!--长度:1-->
+					<EnableCode>00</EnableCode>
+					<DisableCode>08</DisableCode>
+				</Code>	
+		</Codes>
+		</CustomModifyItem>
+		<CustomModifyItem>
+			<Caption>追加获得技巧，经验，功绩</Caption>
+			<Enabled>true</Enabled>
+			<Codes>
+				<Code>
+					<Description>代码</Description>
+					<Address>0051DDBB</Address><!--长度:1-->
+					<EnableCode>78</EnableCode>
+					<DisableCode>32</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>0051DDCD</Address><!--长度:4-->
+					<EnableCode>F4 01 00 00</EnableCode>
+					<DisableCode>1E 00 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>0051DDFC</Address><!--长度:2-->
+					<EnableCode>88 13</EnableCode>
+					<DisableCode>C8 00</DisableCode>
+				</Code>	
+		</Codes>
+		</CustomModifyItem>
+		<CustomModifyItem>
+			<Caption>无条件六张牌</Caption>
+			<Enabled>true</Enabled>
+			<Codes>
+				<Code>
+					<Description>代码</Description>
+					<Address>0051DAE1</Address><!--长度:5-->
+					<EnableCode>E9 72 29 4E 00</EnableCode>
+					<DisableCode>E8 8A F9 FF FF</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>00A00458</Address><!--长度:108-->
+					<EnableCode>8B 44 24 1C 85 C0 74 07 B8 07 00 00 00 EB 05 E8 04 D0 B1 FF E9 75 D6 B1 FF 8B 86 98 00 00 00 83 F8 01 75 05 83 C0 02 EB 05 E8 8A D0 B1 FF E9 0A EA B1 FF E8 E0 A3 B1 FF 8B 83 7C 01 00 00 69 C0 A0 00 00 00 8B 84 18 A8 00 00 00 83 F8 01 0F 85 4C EA B1 FF 5F E9 4B EA B1 FF 00 00 00 83 F8 01 0F 85 38 D5 11 00 5F E9 39 EA B1 FF</EnableCode>
+					<DisableCode>8B 44 24 1C 85 C0 74 07 B8 07 00 00 00 EB 05 E8 04 D0 B1 FF E9 75 D6 B1 FF 8B 86 98 00 00 00 83 F8 01 75 05 83 C0 02 EB 05 E8 8A D0 B1 FF E9 0A EA B1 FF E8 E0 A3 B1 FF 8B 83 7C 01 00 00 69 C0 A0 00 00 00 8B 84 18 A8 00 00 00 83 F8 01 0F 85 4C EA B1 FF 5F E9 4B EA B1 FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</DisableCode>
+				</Code>	
+		</Codes>
+		</CustomModifyItem>
+		<CustomModifyItem>
+			<Caption>激愤时先发动莽撞与小心性格的效果</Caption>
+			<Enabled>true</Enabled>
+			<Codes>
+				<Code>
+					<Description>代码</Description>
+					<Address>0051EE90</Address><!--长度:5-->
+					<EnableCode>E9 DC 15 4E 00</EnableCode>
+					<DisableCode>E8 7B E6 FF FF</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>0051EEF3</Address><!--长度:5-->
+					<EnableCode>E9 93 15 4E 00</EnableCode>
+					<DisableCode>E8 78 B9 FF FF</DisableCode>
+				</Code>	
+
+
+
+
+			</Codes>
+		</CustomModifyItem>
+	</CustomModifyItems>
+</CustomModifyPackage>

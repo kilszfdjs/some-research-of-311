@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="GB2312"?>
+<CustomModifyPackage>
+	<PackageName>官职解锁特技</PackageName>
+	<PackageAuthor>天照之火</PackageAuthor>
+	<PackageDiscription>习得特技时优先填补功阶，若官职满则替换主特技，习得特技设为无时，视为洗去主特技，习得特技设为254时，视为洗去功阶1，以此类推</PackageDiscription>
+	<CustomModifyItems>
+		<CustomModifyItem>
+			<Caption>功勋解锁特技</Caption>
+			<Enabled>true</Enabled>
+			<Codes>
+				<Code>
+					<Description>代码</Description>
+					<Address>00489104</Address><!--长度:2-->
+					<EnableCode>EB 10</EnableCode>
+					<DisableCode>33 D2</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>00489116</Address><!--长度:5-->
+					<EnableCode>E9 E5 6E 49 00</EnableCode>
+					<DisableCode>CC CC CC CC CC</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>00920000</Address><!--长度:75-->
+					<EnableCode>57 55 53 31 DB 43 0F B7 A9 A4 00 00 00 0F B7 BC 1B 9F 00 92 00 39 FD 73 12 0F B6 74 19 12 31 D2 51 E8 F6 FF FE FF 59 85 D2 74 16 43 83 FB 05 76 D5 5B 5D 5F 31 D2 8B B1 E8 00 00 00 E9 C5 90 B6 FF 5B 5D 5F 5E 31 C0 40 C2 04 00</EnableCode>
+					<DisableCode>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004C9BEF</Address><!--长度:9-->
+					<EnableCode>0F B6 76 13 E9 01 09 00 00</EnableCode>
+					<DisableCode>8B 46 50 50 57 E8 D7 4E FC</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004C9D3C</Address><!--长度:9-->
+					<EnableCode>0F B6 76 14 E9 B4 07 00 00</EnableCode>
+					<DisableCode>8B B6 E4 00 00 00 56 B9 58</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004C9D5C</Address><!--长度:9-->
+					<EnableCode>0F B6 76 15 E9 94 07 00 00</EnableCode>
+					<DisableCode>8B 8E EC 00 00 00 51 57 E8</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004C9D71</Address><!--长度:9-->
+					<EnableCode>0F B6 76 16 E9 7F 07 00 00</EnableCode>
+					<DisableCode>8B 96 F0 00 00 00 52 57 E8</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004C9D86</Address><!--长度:9-->
+					<EnableCode>0F B6 76 17 E9 6A 07 00 00</EnableCode>
+					<DisableCode>8B 86 F4 00 00 00 50 57 E8</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004C9D9B</Address><!--长度:9-->
+					<EnableCode>0F B6 76 13 E9 A4 07 00 00</EnableCode>
+					<DisableCode>8B 8E F8 00 00 00 51 57 E8</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004C9DC5</Address><!--长度:9-->
+					<EnableCode>0F B6 76 14 E9 7A 07 00 00</EnableCode>
+					<DisableCode>8B 86 00 01 00 00 50 57 E8</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004C9DDA</Address><!--长度:9-->
+					<EnableCode>0F B6 76 15 E9 65 07 00 00</EnableCode>
+					<DisableCode>8B 8E 08 01 00 00 51 57 E8</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004C9DEF</Address><!--长度:9-->
+					<EnableCode>0F B6 76 16 E9 50 07 00 00</EnableCode>
+					<DisableCode>8B 96 0C 01 00 00 52 57 E8</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004C9E04</Address><!--长度:9-->
+					<EnableCode>0F B6 76 17 E9 3B 07 00 00</EnableCode>
+					<DisableCode>8B 86 10 01 00 00 50 57 E8</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>00629148</Address><!--长度:7-->
+					<EnableCode>E9 C3 5E 34 00 90 90</EnableCode>
+					<DisableCode>8B BC 24 64 01 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>006292E5</Address><!--长度:5-->
+					<EnableCode>E9 CA 5E 34 00</EnableCode>
+					<DisableCode>E8 D6 01 EB FF</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>006292DE</Address><!--长度:5-->
+					<EnableCode>68 66 18 00 00</EnableCode>
+					<DisableCode>68 66 18 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>006292BF</Address><!--长度:2-->
+					<EnableCode>6A 42</EnableCode>
+					<DisableCode>6A 1E</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>0096F000</Address><!--长度:876-->
+					<EnableCode>FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 8B BC 24 64 01 00 00 6A 0A 8D 4C 24 1C 57 51 E8 6C A8 B5 FF 83 C4 0C 8D 54 24 24 52 68 1C 18 00 00 8B CE E8 88 A4 B6 FF 6A 29 8D 4C 24 1C 57 51 E8 4B A8 B5 FF 83 C4 0C 8D 54 24 24 52 68 20 18 00 00 8B CE E8 67 A4 B6 FF 6A 2B 8D 4C 24 1C 57 51 E8 2A A8 B5 FF 83 C4 0C 8D 54 24 24 52 68 24 18 00 00 8B CE E8 46 A4 B6 FF 6A 2C 8D 4C 24 1C 57 51 E8 09 A8 B5 FF 83 C4 0C 8D 54 24 24 52 68 28 18 00 00 8B CE E8 25 A4 B6 FF 6A 2D 8D 4C 24 1C 57 51 E8 E8 A7 B5 FF 83 C4 0C 8D 54 24 24 52 68 2C 18 00 00 8B CE E8 04 A4 B6 FF 6A 01 68 1C 18 00 00 68 1E 18 00 00 E8 5A 00 00 00 6A 02 68 20 18 00 00 68 22 18 00 00 E8 49 00 00 00 6A 03 68 24 18 00 00 68 26 18 00 00 E8 38 00 00 00 6A 04 68 28 18 00 00 68 2A 18 00 00 E8 27 00 00 00 6A 05 68 2C 18 00 00 68 2E 18 00 00 E8 16 00 00 00 6A 00 68 66 18 00 00 68 64 18 00 00 E8 05 00 00 00 E9 28 A0 CB FF 6A 00 0F B7 8F A4 00 00 00 8B 44 24 10 85 C0 8B AF E8 00 00 00 0F 84 25 00 00 00 0F B7 2C 45 9F 00 92 00 39 E9 0F B6 6C 38 12 0F 82 10 00 00 00 8D 44 24 24 B9 80 80 80 80 89 08 E9 2A 00 00 00 31 C0 40 81 FD FA 00 00 00 0F 87 0E 00 00 00 55 B9 58 19 20 07 E8 CF 1A B2 FF 8B 40 60 8B 0C 85 FC EF 96 00 8D 44 24 24 89 08 50 8B CE 8B 44 24 10 50 E8 92 AD B6 FF 6A 00 8D 44 24 24 50 8B CE 8B 44 24 0C 50 E8 7F AD B6 FF C2 0C 00 E8 07 A3 B6 FF 6A 2E 8D 54 24 48 57 52 E8 CA A6 B5 FF 6A 00 6A 02 6A 42 8D 44 24 68 50 8D 8C 24 EC 00 00 00 51 E8 52 9E B2 FF 83 C4 20 8D 94 24 DC 00 00 00 52 68 1E 18 00 00 8B CE E8 CB A2 B6 FF 6A 30 8D 54 24 48 57 52 E8 8E A6 B5 FF 6A 00 6A 02 6A 42 8D 44 24 68 50 8D 8C 24 EC 00 00 00 51 E8 16 9E B2 FF 83 C4 20 8D 94 24 DC 00 00 00 52 68 22 18 00 00 8B CE E8 8F A2 B6 FF 6A 31 8D 54 24 48 57 52 E8 52 A6 B5 FF 6A 00 6A 02 6A 42 8D 44 24 68 50 8D 8C 24 EC 00 00 00 51 E8 DA 9D B2 FF 83 C4 20 8D 94 24 DC 00 00 00 52 68 26 18 00 00 8B CE E8 53 A2 B6 FF 6A 32 8D 54 24 48 57 52 E8 16 A6 B5 FF 6A 00 6A 02 6A 42 8D 44 24 68 50 8D 8C 24 EC 00 00 00 51 E8 9E 9D B2 FF 83 C4 20 8D 94 24 DC 00 00 00 52 68 2A 18 00 00 8B CE E8 17 A2 B6 FF 6A 33 8D 54 24 48 57 52 E8 DA A5 B5 FF 6A 00 6A 02 6A 42 8D 44 24 68 50 8D 8C 24 EC 00 00 00 51 E8 62 9D B2 FF 83 C4 20 8D 94 24 DC 00 00 00 52 68 2E 18 00 00 8B CE E8 DB A1 B6 FF E9 00 A0 CB FF 57 55 31 ED 45 0F B7 86 A4 00 00 00 0F B7 BC 2D 9F 00 92 00 39 F8 0F 83 0F 00 00 00 0F B6 44 35 12 E8 88 0D FA FF E8 37 0E FA FF 45 83 FD 05 76 D4 5D 5F 8B 86 E8 00 00 00 C3 8B 4C 24 18 83 F9 2A 0F 84 0B 00 00 00 8B BF E8 00 00 00 E9 A4 A0 B5 FF 83 E9 22 0F B7 8C 09 9F 00 92 00 66 3B 8F AE 00 00 00 0F 86 0A 00 00 00 BF FF FF FF FF E9 82 A0 B5 FF 8B 4C 24 18 0F B6 7C 39 F0 E9 74 A0 B5 FF</EnableCode>
+					<DisableCode>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004CA297</Address><!--长度:2-->
+					<EnableCode>EB 04</EnableCode>
+					<DisableCode>0F 84</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004C96DA</Address><!--长度:2-->
+					<EnableCode>EB 04</EnableCode>
+					<DisableCode>0F 84</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>008BD390</Address><!--长度:5-->
+					<EnableCode>51 00 92 00 14</EnableCode>
+					<DisableCode>08 CD 8B 00 0D</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>008BD39C</Address><!--长度:5-->
+					<EnableCode>51 00 92 00 14</EnableCode>
+					<DisableCode>08 CD 8B 00 0D</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>008BD46C</Address><!--长度:5-->
+					<EnableCode>AD 00 92 00 08</EnableCode>
+					<DisableCode>48 CF 8B 00 03</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>00920051</Address><!--长度:124-->
+					<EnableCode>01 00 00 00 4A 00 00 00 44 00 00 00 45 00 00 00 46 00 00 00 47 00 00 00 48 00 00 00 74 00 00 00 75 00 00 00 76 00 00 00 77 00 00 00 78 00 00 00 79 00 00 00 2A 00 00 00 23 00 00 00 24 00 00 00 25 00 00 00 26 00 00 00 27 00 00 00 18 00 00 00 10 27 20 4E 30 75 40 9C 50 C3 FF FF 01 00 00 00 2A 00 00 00 23 00 00 00 24 00 00 00 25 00 00 00 26 00 00 00 27 00 00 00 18 00 00 00</EnableCode>
+					<DisableCode>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004C9D02</Address><!--长度:52-->
+					<EnableCode>83 EB 22 0F B7 8C 1B 9F 00 92 00 0F B7 86 AE 00 00 00 39 C8 0F 82 0A 00 00 00 BE FF FF FF FF E9 D3 07 00 00 0F B6 74 33 12 81 E6 FF 00 00 00 E9 C3 07 00 00</EnableCode>
+					<DisableCode>6A 14 8D 4C 24 20 51 8D 4C 24 18 E8 9E 7C FA FF 83 C3 DD 53 8B CE E8 83 F4 FB FF 50 8D 54 24 14 52 E8 68 4E FC FF 83 C4 08 8D 44 24 10 50 8B CF E8 A9 7D FA</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>008AB98C</Address><!--长度:5-->
+					<EnableCode>00 00 00 00 02</EnableCode>
+					<DisableCode>03 00 00 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>007ECA28</Address><!--长度:6-->
+					<EnableCode>AF 53 A7 DE 00 00</EnableCode>
+					<DisableCode>B2 CE B2 76 C5 DC</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>008AB99C</Address><!--长度:5-->
+					<EnableCode>00 00 00 00 02</EnableCode>
+					<DisableCode>03 00 00 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>007ECA1C</Address><!--长度:6-->
+					<EnableCode>AF 53 A7 DE 00 00</EnableCode>
+					<DisableCode>AA 5A A4 4F C5 DC</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>008AB9AC</Address><!--长度:5-->
+					<EnableCode>00 00 00 00 02</EnableCode>
+					<DisableCode>03 00 00 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>007ECA10</Address><!--长度:6-->
+					<EnableCode>AF 53 A7 DE 00 00</EnableCode>
+					<DisableCode>B4 BC A4 4F C5 DC</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>008AB9BC</Address><!--长度:5-->
+					<EnableCode>00 00 00 00 02</EnableCode>
+					<DisableCode>03 00 00 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>007ECA04</Address><!--长度:6-->
+					<EnableCode>AF 53 A7 DE 00 00</EnableCode>
+					<DisableCode>AC 46 AA 76 C5 DC</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>008AB9CC</Address><!--长度:5-->
+					<EnableCode>00 00 00 00 02</EnableCode>
+					<DisableCode>03 00 00 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>007EC9F8</Address><!--长度:6-->
+					<EnableCode>AF 53 A7 DE 00 00</EnableCode>
+					<DisableCode>BE 79 A4 4F C5 DC</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004CEA3B</Address><!--长度:6-->
+					<EnableCode>E8 AA 08 4A 00 90</EnableCode>
+					<DisableCode>8B 86 E8 00 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004C93DA</Address><!--长度:6-->
+					<EnableCode>E9 45 5F 4A 00 90</EnableCode>
+					<DisableCode>8B BF E8 00 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>004C94FB</Address><!--长度:5-->
+					<EnableCode>09 09 09 09 09</EnableCode>
+					<DisableCode>00 00 00 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>00815D40</Address><!--长度:1024-->
+					<EnableCode>85 00 00 00 1A 18 02 00 FF FF 60 02 09 00 07 00 06 00 A6 02 AA 00 00 00 85 00 00 00 1B 18 02 00 FF FF 65 01 09 00 CA 00 29 00 2A 00 16 00 00 00 85 00 00 00 1C 18 06 00 1B 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 1D 18 02 00 FF FF 9B 01 09 00 F6 00 29 00 AE 01 16 00 00 00 85 00 00 00 1E 18 06 00 1D 18 FF FF FF FF 05 00 03 00 A4 01 10 00 10 00 85 00 00 00 1F 18 02 00 FF FF 65 01 09 00 CA 00 43 00 2A 00 16 00 00 00 85 00 00 00 20 18 06 00 1F 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 21 18 02 00 FF FF 9B 01 09 00 F6 00 43 00 AE 01 16 00 00 00 85 00 00 00 22 18 06 00 21 18 FF FF FF FF 05 00 03 00 A4 01 10 00 10 00 85 00 00 00 23 18 02 00 FF FF 65 01 09 00 CA 00 5D 00 2A 00 16 00 00 00 85 00 00 00 24 18 06 00 23 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 25 18 02 00 FF FF 9B 01 09 00 F6 00 5D 00 AE 01 16 00 00 00 85 00 00 00 26 18 06 00 25 18 FF FF FF FF 05 00 03 00 A4 01 10 00 10 00 85 00 00 00 27 18 02 00 FF FF 65 01 09 00 CA 00 77 00 2A 00 16 00 00 00 85 00 00 00 28 18 06 00 27 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 29 18 02 00 FF FF 9B 01 09 00 F6 00 77 00 AE 01 16 00 00 00 85 00 00 00 2A 18 06 00 29 18 FF FF FF FF 05 00 03 00 A4 01 10 00 10 00 85 00 00 00 2B 18 02 00 FF FF 65 01 09 00 CA 00 91 00 2A 00 16 00 00 00 85 00 00 00 2C 18 06 00 2B 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 2D 18 02 00 FF FF 9B 01 09 00 F6 00 91 00 AE 01 16 00 00 00 85 00 00 00 2E 18 06 00 2D 18 FF FF FF FF 05 00 03 00 A4 01 10 00 10 00 85 00 00 00 2F 18 02 00 FF FF 89 01 09 00 10 00 0F 00 2A 00 16 00 00 00 85 00 00 00 30 18 06 00 2F 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 31 18 02 00 FF FF 9B 01 09 00 3C 00 0F 00 2A 00 16 00 00 00 85 00 00 00 32 18 06 00 31 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 33 18 02 00 FF FF 89 01 09 00 10 00 29 00 2A 00 16 00 00 00 85 00 00 00 34 18 06 00 33 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 35 18 02 00 FF FF 9B 01 09 00 3C 00 29 00 2A 00 16 00 00 00 85 00 00 00 36 18 06 00 35 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 37 18 02 00 FF FF 89 01 09 00 10 00 43 00 2A 00 16 00 00 00 85 00 00 00 38 18 06 00 37 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 39 18 02 00 FF FF 9B 01 09 00 3C 00 43 00 2A 00 16 00 00 00 85 00 00 00 3A 18 06 00 39 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 3B 18 02 00 FF FF 89 01 09 00 10 00 5D 00 2A 00 16 00 00 00 85 00 00 00 3C 18 06 00 3B 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 3D 18 02 00 FF FF 9B 01 09 00 3C 00 5D 00 2A 00 16 00 00 00 85 00 00 00 3E 18 06 00 3D 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 3F 18 02 00 FF FF 89 01 09 00 10 00 77 00 2A 00 16 00 00 00 85 00 00 00 40 18 06 00 3F 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 41 18 02 00 FF FF 9B 01 09 00 3C 00 77 00 2A 00 16 00 00 00 85 00 00 00 42 18 06 00 41 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 43 18 02 00 FF FF 89 01 09 00 10 00 91 00 2A 00 16 00 00 00 85 00 00 00 44 18 06 00 43 18 FF FF FF FF 05 00</EnableCode>
+					<DisableCode>85 00 00 00 1A 18 00 00 FF FF A7 01 01 00 00 00 00 00 10 00 10 00 00 00 85 00 00 00 1B 18 09 00 FF FF AB 01 01 00 10 00 00 00 75 00 10 00 00 00 85 00 00 00 1C 18 00 00 FF FF A4 01 01 00 85 00 00 00 10 00 10 00 00 00 85 00 00 00 1D 18 09 00 FF FF B2 01 01 00 00 00 10 00 10 00 97 00 00 00 85 00 00 00 1E 18 09 00 FF FF B2 01 01 00 85 00 10 00 10 00 97 00 00 00 85 00 00 00 1F 18 00 00 FF FF A9 01 01 00 00 00 A7 00 10 00 10 00 00 00 85 00 00 00 20 18 09 00 FF FF AB 01 01 00 10 00 A7 00 75 00 10 00 00 00 85 00 00 00 21 18 00 00 FF FF A6 01 01 00 85 00 A7 00 10 00 10 00 00 00 85 00 00 00 22 18 00 00 FF FF A7 01 01 00 96 00 00 00 10 00 10 00 00 00 85 00 00 00 23 18 09 00 FF FF AB 01 01 00 A6 00 00 00 45 01 10 00 00 00 85 00 00 00 24 18 00 00 FF FF A4 01 01 00 EB 01 00 00 10 00 10 00 00 00 85 00 00 00 25 18 09 00 FF FF B2 01 01 00 96 00 10 00 10 00 2F 00 00 00 85 00 00 00 26 18 09 00 FF FF B2 01 01 00 EB 01 10 00 10 00 2F 00 00 00 85 00 00 00 27 18 00 00 FF FF A8 01 01 00 96 00 3F 00 10 00 10 00 00 00 85 00 00 00 28 18 09 00 FF FF AB 01 01 00 A6 00 3F 00 45 01 10 00 00 00 85 00 00 00 29 18 00 00 FF FF A5 01 01 00 EB 01 3F 00 10 00 10 00 00 00 85 00 00 00 2A 18 09 00 FF FF B2 01 01 00 96 00 4F 00 10 00 41 00 00 00 85 00 00 00 2B 18 09 00 FF FF B2 01 01 00 EB 01 4F 00 10 00 41 00 00 00 85 00 00 00 2C 18 00 00 FF FF A9 01 01 00 96 00 90 00 10 00 10 00 00 00 85 00 00 00 2D 18 09 00 FF FF AB 01 01 00 A6 00 90 00 45 01 10 00 00 00 85 00 00 00 2E 18 00 00 FF FF A6 01 01 00 EB 01 90 00 10 00 10 00 00 00 85 00 00 00 2F 18 02 00 FF FF 89 01 09 00 10 00 0F 00 4A 00 16 00 00 00 85 00 00 00 30 18 06 00 2F 18 FF FF FF FF 05 00 03 00 40 00 10 00 50 00 85 00 00 00 31 18 02 00 FF FF 9B 01 09 00 5C 00 0F 00 2A 00 16 00 00 00 85 00 00 00 32 18 06 00 31 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 33 18 02 00 FF FF 89 01 09 00 10 00 29 00 4A 00 16 00 00 00 85 00 00 00 34 18 06 00 33 18 FF FF FF FF 05 00 03 00 40 00 10 00 50 00 85 00 00 00 35 18 02 00 FF FF 9B 01 09 00 5C 00 29 00 2A 00 16 00 00 00 85 00 00 00 36 18 06 00 35 18 FF FF FF FF 05 00 03 00 20 00 10 00 90 01 85 00 00 00 37 18 02 00 FF FF 89 01 09 00 10 00 43 00 4A 00 16 00 00 00 85 00 00 00 38 18 06 00 37 18 FF FF FF FF 05 00 03 00 40 00 10 00 50 00 85 00 00 00 39 18 02 00 FF FF 9B 01 09 00 5C 00 43 00 2A 00 16 00 00 00 85 00 00 00 3A 18 06 00 39 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 3B 18 02 00 FF FF 89 01 09 00 10 00 5D 00 4A 00 16 00 00 00 85 00 00 00 3C 18 06 00 3B 18 FF FF FF FF 05 00 03 00 40 00 10 00 50 00 85 00 00 00 3D 18 02 00 FF FF 9B 01 09 00 5C 00 5D 00 2A 00 16 00 00 00 85 00 00 00 3E 18 06 00 3D 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 3F 18 02 00 FF FF 89 01 09 00 10 00 77 00 4A 00 16 00 00 00 85 00 00 00 40 18 06 00 3F 18 FF FF FF FF 05 00 03 00 40 00 10 00 50 00 85 00 00 00 41 18 02 00 FF FF 9B 01 09 00 5C 00 77 00 2A 00 16 00 00 00 85 00 00 00 42 18 06 00 41 18 FF FF FF FF 05 00 03 00 20 00 10 00 90 01 85 00 00 00 43 18 02 00 FF FF 89 01 09 00 10 00 91 00 4A 00 16 00 00 00 85 00 00 00 44 18 06 00 43 18 FF FF FF FF 05 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>00816140</Address><!--长度:824-->
+					<EnableCode>03 00 20 00 10 00 50 00 85 00 00 00 45 18 02 00 FF FF 9B 01 09 00 3C 00 91 00 2A 00 16 00 00 00 85 00 00 00 46 18 06 00 45 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 47 18 00 00 FF FF A7 01 01 00 00 00 00 00 10 00 10 00 00 00 85 00 00 00 48 18 00 00 FF FF A9 01 01 00 00 00 A7 00 10 00 10 00 00 00 85 00 00 00 49 18 02 00 FF FF 9B 01 09 00 75 00 0F 00 2A 00 16 00 00 00 85 00 00 00 4A 18 06 00 49 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 4B 18 02 00 FF FF 9B 01 09 00 A1 00 0F 00 1A 00 16 00 00 00 85 00 00 00 4C 18 06 00 4B 18 FF FF FF FF 05 00 03 00 10 00 10 00 50 00 85 00 00 00 4D 18 02 00 FF FF 9B 01 09 00 75 00 29 00 2A 00 16 00 00 00 85 00 00 00 4E 18 06 00 4D 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 4F 18 02 00 FF FF 9B 01 09 00 A1 00 29 00 1A 00 16 00 00 00 85 00 00 00 50 18 06 00 4F 18 FF FF FF FF 05 00 03 00 10 00 10 00 50 00 85 00 00 00 51 18 02 00 FF FF 9B 01 09 00 75 00 43 00 2A 00 16 00 00 00 85 00 00 00 52 18 06 00 51 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 53 18 02 00 FF FF 9B 01 09 00 A1 00 43 00 1A 00 16 00 00 00 85 00 00 00 54 18 06 00 53 18 FF FF FF FF 05 00 03 00 10 00 10 00 50 00 85 00 00 00 55 18 02 00 FF FF 9B 01 09 00 75 00 5D 00 2A 00 16 00 00 00 85 00 00 00 56 18 06 00 55 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 57 18 02 00 FF FF 9B 01 09 00 A1 00 5D 00 1A 00 16 00 00 00 85 00 00 00 58 18 06 00 57 18 FF FF FF FF 05 00 03 00 10 00 10 00 50 00 85 00 00 00 59 18 02 00 FF FF 9B 01 09 00 75 00 77 00 2A 00 16 00 00 00 85 00 00 00 5A 18 06 00 59 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 5B 18 02 00 FF FF 9B 01 09 00 A1 00 77 00 1A 00 16 00 00 00 85 00 00 00 5C 18 06 00 5B 18 FF FF FF FF 05 00 03 00 10 00 10 00 50 00 85 00 00 00 5D 18 02 00 FF FF 9B 01 09 00 75 00 91 00 2A 00 16 00 00 00 85 00 00 00 5E 18 06 00 5D 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 5F 18 02 00 FF FF 9B 01 09 00 A1 00 91 00 1A 00 16 00 00 00 85 00 00 00 60 18 06 00 5F 18 FF FF FF FF 05 00 03 00 10 00 10 00 50 00 85 00 00 00 61 18 00 00 FF FF A4 01 01 00 A3 02 00 00 10 00 10 00 00 00 85 00 00 00 62 18 00 00 FF FF A6 01 01 00 A3 02 A7 00 10 00 10 00 00 00 85 00 00 00 63 18 02 00 FF FF 65 01 09 00 CA 00 0F 00 2A 00 16 00 00 00 85 00 00 00 64 18 06 00 63 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 65 18 02 00 FF FF 9B 01 09 00 F6 00 0F 00 AE 01 16 00 00 00 85 00 00 00 66 18 06 00 65 18 FF FF FF FF 05 00 03 00 A4 01 10 00 10 00</EnableCode>
+					<DisableCode>03 00 40 00 10 00 50 00 85 00 00 00 45 18 02 00 FF FF 9B 01 09 00 5C 00 91 00 2A 00 16 00 00 00 85 00 00 00 46 18 06 00 45 18 FF FF FF FF 05 00 03 00 20 00 10 00 90 01 85 00 00 00 47 18 02 00 FF FF 89 01 09 00 A6 00 0F 00 4A 00 16 00 00 00 85 00 00 00 48 18 06 00 47 18 FF FF FF FF 05 00 03 00 40 00 10 00 50 00 85 00 00 00 49 18 02 00 FF FF 9B 01 09 00 F2 00 0F 00 2A 00 16 00 00 00 85 00 00 00 4A 18 06 00 49 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 4B 18 02 00 FF FF 9B 01 09 00 1E 01 0F 00 1A 00 16 00 00 00 85 00 00 00 4C 18 06 00 4B 18 FF FF FF FF 05 00 03 00 10 00 10 00 50 00 85 00 00 00 4D 18 02 00 FF FF 9B 01 09 00 40 01 0F 00 2A 00 16 00 00 00 85 00 00 00 4E 18 06 00 4D 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 4F 18 02 00 FF FF 9B 01 09 00 6C 01 0F 00 1A 00 16 00 00 00 85 00 00 00 50 18 06 00 4F 18 FF FF FF FF 05 00 03 00 10 00 10 00 50 00 85 00 00 00 51 18 02 00 FF FF 9B 01 09 00 8E 01 0F 00 2A 00 16 00 00 00 85 00 00 00 52 18 06 00 51 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 53 18 02 00 FF FF 9B 01 09 00 BA 01 0F 00 1A 00 16 00 00 00 85 00 00 00 54 18 06 00 53 18 FF FF FF FF 05 00 03 00 10 00 10 00 50 00 85 00 00 00 55 18 02 00 FF FF 9B 01 09 00 F2 00 29 00 2A 00 16 00 00 00 85 00 00 00 56 18 06 00 55 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 57 18 02 00 FF FF 9B 01 09 00 1E 01 29 00 1A 00 16 00 00 00 85 00 00 00 58 18 06 00 57 18 FF FF FF FF 05 00 03 00 10 00 10 00 50 00 85 00 00 00 59 18 02 00 FF FF 9B 01 09 00 40 01 29 00 2A 00 16 00 00 00 85 00 00 00 5A 18 06 00 59 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 5B 18 02 00 FF FF 9B 01 09 00 6C 01 29 00 1A 00 16 00 00 00 85 00 00 00 5C 18 06 00 5B 18 FF FF FF FF 05 00 03 00 10 00 10 00 50 00 85 00 00 00 5D 18 02 00 FF FF 9B 01 09 00 8E 01 29 00 2A 00 16 00 00 00 85 00 00 00 5E 18 06 00 5D 18 FF FF FF FF 05 00 03 00 20 00 10 00 50 00 85 00 00 00 5F 18 02 00 FF FF 9B 01 09 00 BA 01 29 00 1A 00 16 00 00 00 85 00 00 00 60 18 06 00 5F 18 FF FF FF FF 05 00 03 00 10 00 10 00 50 00 85 00 00 00 61 18 02 00 FF FF 89 01 09 00 A6 00 4E 00 4A 00 16 00 00 00 85 00 00 00 62 18 06 00 61 18 FF FF FF FF 05 00 03 00 40 00 10 00 50 00 85 00 00 00 63 18 02 00 FF FF 65 01 09 00 F2 00 4E 00 3A 00 16 00 00 00 85 00 00 00 64 18 06 00 63 18 FF FF FF FF 05 00 03 00 30 00 10 00 50 00 85 00 00 00 65 18 02 00 FF FF 9B 01 09 00 F2 00 68 00 FA 00 28 00 00 00 85 00 00 00 66 18 06 00 65 18 FF FF FF FF 05 00 03 00 F0 00 22 00 10 00</DisableCode>
+				</Code>	
+			</Codes>
+			<Params>
+				<Param>
+					<Name>官职1</Name>
+					<Address>009200a1</Address>
+					<Length>2</Length>
+					<Type>Number</Type>
+					<Value>71</Value>
+					<Min>0</Min>
+					<Max>60000</Max>
+				</Param>
+				<Param>
+					<Name>官职2</Name>
+					<Address>009200a3</Address>
+					<Length>2</Length>
+					<Type>Number</Type>
+					<Value>55</Value>
+					<Min>0</Min>
+					<Max>60000</Max>
+				</Param>
+				<Param>
+					<Name>官职3</Name>
+					<Address>009200a5</Address>
+					<Length>2</Length>
+					<Type>Number</Type>
+					<Value>39</Value>
+					<Min>0</Min>
+					<Max>60000</Max>
+				</Param>
+				<Param>
+					<Name>官职4</Name>
+					<Address>009200a7</Address>
+					<Length>2</Length>
+					<Type>Number</Type>
+					<Value>23</Value>
+					<Min>0</Min>
+					<Max>60000</Max>
+				</Param>
+				<Param>
+					<Name>官职5</Name>
+					<Address>009200a9</Address>
+					<Length>2</Length>
+					<Type>Number</Type>
+					<Value>7</Value>
+					<Min>0</Min>
+					<Max>60000</Max>
+				</Param>
+			</Params>
+		</CustomModifyItem>
+				<CustomModifyItem>
+			<Caption>1级特技颜色</Caption>
+			<Enabled>FALSE</Enabled>
+			<Params>
+				<Param>
+					<Name>红</Name>
+					<Address>0096f002</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>255</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+				<Param>
+					<Name>绿</Name>
+					<Address>0096f001</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>255</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+				<Param>
+					<Name>蓝</Name>
+					<Address>0096f000</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>255</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			</Params>
+		</CustomModifyItem>
+		<CustomModifyItem>
+			<Caption>2级特技颜色</Caption>
+			<Enabled>FALSE</Enabled>
+			<Params>
+				<Param>
+					<Name>红</Name>
+					<Address>0096f006</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>255</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+				<Param>
+					<Name>绿</Name>
+					<Address>0096f005</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>255</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+				<Param>
+					<Name>蓝</Name>
+					<Address>0096f004</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>128</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			</Params>
+		</CustomModifyItem>
+		<CustomModifyItem>
+			<Caption>3级特技颜色</Caption>
+			<Enabled>FALSE</Enabled>
+			<Params>
+				<Param>
+					<Name>红</Name>
+					<Address>0096f00a</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>255</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+				<Param>
+					<Name>绿</Name>
+					<Address>0096f009</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>128</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+				<Param>
+					<Name>蓝</Name>
+					<Address>0096f008</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>255</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			</Params>
+		</CustomModifyItem>
+		<CustomModifyItem>
+			<Caption>4级特技颜色</Caption>
+			<Enabled>FALSE</Enabled>
+			<Params>
+				<Param>
+					<Name>红</Name>
+					<Address>0096f00e</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>64</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+				<Param>
+					<Name>绿</Name>
+					<Address>0096f00d</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>128</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+				<Param>
+					<Name>蓝</Name>
+					<Address>0096f00c</Address>
+					<Length>1</Length>
+					<Type>Number</Type>
+					<Value>255</Value>
+					<Min>0</Min>
+					<Max>255</Max>
+				</Param>
+			</Params>
+		</CustomModifyItem>
+		<CustomModifyItem>
+			<Caption>学特技优先填补功阶</Caption>
+			<Enabled>true</Enabled>
+			<Codes>
+				<Code>
+					<Description>代码</Description>
+					<Address>004899E2</Address><!--长度:6-->
+					<EnableCode>E9 19 5A 4E 00 90</EnableCode>
+					<DisableCode>89 81 E8 00 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>0096F400</Address><!--长度:241-->
+					<EnableCode>83 F8 FF 0F 84 A9 00 00 00 3D FE 00 00 00 0F 84 AD 00 00 00 3D FD 00 00 00 0F 84 AB 00 00 00 3D FC 00 00 00 0F 84 A9 00 00 00 3D FB 00 00 00 0F 84 A7 00 00 00 3D FA 00 00 00 0F 84 A5 00 00 00 83 B9 E8 00 00 00 FF 0F 84 32 00 00 00 80 79 13 FF 0F 84 33 00 00 00 80 79 14 FF 0F 84 31 00 00 00 80 79 15 FF 0F 84 2F 00 00 00 80 79 16 FF 0F 84 2D 00 00 00 80 79 17 FF 0F 84 2B 00 00 00 89 81 E8 00 00 00 E9 64 00 00 00 88 41 13 E9 5C 00 00 00 88 41 14 E9 54 00 00 00 88 41 15 E9 4C 00 00 00 88 41 16 E9 44 00 00 00 88 41 17 E9 3C 00 00 00 C7 81 E8 00 00 00 FF FF FF FF E9 2D 00 00 00 C6 41 13 FF E9 24 00 00 00 C6 41 14 FF E9 1B 00 00 00 C6 41 15 FF E9 12 00 00 00 C6 41 16 FF E9 09 00 00 00 C6 41 17 FF E9 00 00 00 00 C2 04 00</EnableCode>
+					<DisableCode>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</DisableCode>
+				</Code>	
+			</Codes>
+		</CustomModifyItem>
+	</CustomModifyItems>
+</CustomModifyPackage>
