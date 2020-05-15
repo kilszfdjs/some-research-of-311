@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="GB2312"?>
+<CustomModifyPackage>
+	<PackageName>连击对战法有效</PackageName>
+	<PackageAuthor>kilszfdjs</PackageAuthor>
+	<PackageDiscription>连击对战法有效</PackageDiscription>
+	<CustomModifyItems>
+		<CustomModifyItem>
+			<Caption>连击对战法有效</Caption>
+			<Enabled>true</Enabled>
+			<Codes>
+				<Code>
+					<Description>代码</Description>
+					<Address>005864C4</Address><!--长度:15-->
+					<EnableCode>EB 05 83 F8 0B 7F 4A 83 7D 0C 02 74 44 90 90</EnableCode>
+					<DisableCode>0F 8C 1D 0C 00 00 83 F8 0B 0F 8F 14 0C 00 00</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>00586F3D</Address><!--长度:5-->
+					<EnableCode>E9 66 2C 32 00</EnableCode>
+					<DisableCode>6A 00 51 6A FF</DisableCode>
+				</Code>	
+				<Code>
+					<Description>代码</Description>
+					<Address>008A9BA8</Address><!--长度:52-->
+					<EnableCode>6A 00 51 FF B4 24 38 05 00 00 E9 8B D3 CD FF 83 7D 0C 02 74 0A E8 0E 96 CF FF E9 21 C6 CD FF 83 C4 08 E9 29 C6 CD FF 85 C0 0F 85 10 D5 CD FF E9 E3 D2 CD FF</EnableCode>
+					<DisableCode>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</DisableCode>
+				</Code>	
+			</Codes>
+		</CustomModifyItem>
+		<CustomModifyItem>
+			<Caption>由连击所发动的战法不耗气力</Caption>
+			<Enabled>true</Enabled>
+			<Codes>
+				<Code>
+					<Description>代码</Description>
+					<Address>005861E3</Address><!--长度:5-->
+					<EnableCode>E9 CF 39 32 00</EnableCode>
+					<DisableCode>E8 E8 CF 01 00</DisableCode>
+				</Code>	
+			</Codes>
+		</CustomModifyItem>
+		<CustomModifyItem>
+			<Caption>触发单挑则不连击</Caption>
+			<Enabled>true</Enabled>
+			<Codes>
+				<Code>
+					<Description>代码</Description>
+					<Address>00586515</Address><!--长度:5-->
+					<EnableCode>E9 B5 36 32 00</EnableCode>
+					<DisableCode>E9 CD 0B 00 00</DisableCode>
+				</Code>	
+			</Codes>
+		</CustomModifyItem>
+	</CustomModifyItems>
+</CustomModifyPackage>
